@@ -28,6 +28,10 @@ export const business = {
   phoneDisplay: "+91 99065 70982",
   phoneHref: "tel:+919906570982",
 
+  /** Public website URL — update once a custom domain or live host is confirmed. */
+  website: "https://vishalvc950.github.io/sip-bite-cafe-website",
+  websiteLabel: "sipandbite.cafe",
+
   plusCode: "8F22+9W Narot Jaimal Singh, Punjab",
 
   /** Set to true only after confirming the Google listing shows 5.0 from 9 reviews. */

@@ -1,4 +1,4 @@
-import { Coffee, UtensilsCrossed, Users, ArrowRight, MapPin } from "lucide-react";
+import { Coffee, UtensilsCrossed, Users, ArrowRight, MapPin, Globe } from "lucide-react";
 import Reveal from "./Reveal";
 import { business } from "../data/business";
 
@@ -90,15 +90,27 @@ export default function About() {
               ))}
             </div>
 
-            <Reveal delay={280}>
+            <Reveal delay={280} className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4">
               <a
                 href="#contact"
-                className="group mt-10 inline-flex items-center gap-2 text-sm font-bold text-espresso"
+                className="group inline-flex items-center gap-2 text-sm font-bold text-espresso"
               >
                 <span className="border-b-2 border-caramel pb-0.5 transition-colors group-hover:border-espresso">
                   Plan your visit
                 </span>
                 <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" aria-hidden="true" />
+              </a>
+              <a
+                href={business.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-2 text-sm font-bold text-espresso"
+              >
+                <Globe className="h-4 w-4 text-caramel-deep" aria-hidden="true" />
+                <span className="border-b-2 border-caramel pb-0.5 transition-colors group-hover:border-espresso">
+                  Visit our website
+                </span>
+                <span className="text-xs font-medium text-taupe">{business.websiteLabel}</span>
               </a>
             </Reveal>
           </div>
