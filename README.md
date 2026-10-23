@@ -2,6 +2,8 @@
 
 A modern, single-page marketing website for **Sip & Bite Cafe**, a neighborhood cafe opposite GNDU Campus in Narot Jaimal Singh, Punjab. Built with React, TypeScript, Vite and Tailwind CSS.
 
+**Live demo:** [vishalvc950.github.io/sip-bite-cafe-website](https://vishalvc950.github.io/sip-bite-cafe-website/)
+
 ## Overview
 
 The site presents the cafe's menu, photo gallery, story, customer reviews and contact details with an editorial, warm aesthetic inspired by specialty coffee branding. It is mobile-first, accessible and optimized for local search.
